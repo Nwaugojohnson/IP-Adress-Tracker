@@ -15,7 +15,7 @@ export default function App() {
           <input
             type="text"
             placeholder="Search for any IP address or domain"
-            className="p-2 w-full"
+            className="p-2 w-full outline-none"
           ></input>
           <button type="submit" className="p-3 bg-black rounded-r-lg">
             <img src={submit_icon} alt="submit_icon" width={8} height={8}></img>
